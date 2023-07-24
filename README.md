@@ -6,7 +6,7 @@ Assumptions I had for this challenge:
 
    To clarify: Even if 3 coordinate points were 'dry' and one is 'wet', that Quadrilateral surface falls into the 'wet' data set.
    
-**2.** Quadrilateral surfaces may be touching therefore may share points.
+**2.** Quadrilateral surfaces may be touching and therefore may share points.
 
 ## Usage
 Run 
