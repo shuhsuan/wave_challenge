@@ -175,5 +175,5 @@ fn main() {
     serde_json::to_writer(&mut f_wet, &wet_data); //serializes the wet_data struct to the wet_data.json file
     serde_json::to_writer(&mut f_dry, &dry_data); //serializes the dry_data struct to the dry_data.json file
 
-    //The p points in wet_data and dry_data don't add up to p_data.len(), some values are repeated?
+    //The p points in wet_data and dry_data don't add up to p_data.len(), assume some values are repeated.
 }
