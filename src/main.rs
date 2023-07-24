@@ -127,7 +127,7 @@ fn main() {
                     }
                 }
 
-                continue 'loop_quads; //I define the problem such that if just one p coordinate is wet then the quadrilateral is defined as wet and will be placed into the wet_data, thus it should skip to the next quadrilateral after it finds one wet coordinate
+                continue 'loop_quads; //Skip to the next quadrilateral after it finds one coordinate with a z-index below 0, this is one of my assumptions of how a dry surface is defined.
             }
             //for positive z
             else {
