@@ -2,11 +2,11 @@
 
 Assumptions I had for this challenge:
 
-**1.** For a Quadrilateral to be considered 'wet', it would have at least one coordinate where the z-index was below 0. <br>
+**1.** For a Quadrilateral surface to be considered 'wet', it would have at least one coordinate where the z-index was below 0. <br>
 
-   To clarify: Even if 3 coordinate points were 'dry' and the last one is 'wet', that Quadrilateral falls into the 'wet' data set.
+   To clarify: Even if 3 coordinate points were 'dry' and one is 'wet', that Quadrilateral surface falls into the 'wet' data set.
    
-**2.** Quadrilaterals may be touching therefore may share points
+**2.** Quadrilateral surfaces may be touching therefore may share points.
 
 ## Usage
 Run 
