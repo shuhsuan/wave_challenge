@@ -30,9 +30,9 @@ in the terminal to open the documentation.
 The outputs created from the project are 
 
 * [wet_data.json](https://github.com/shuhsuan/wave_challenge/blob/master/wet_data.json)
-  This contains a data set of quadrilaterals that map to coordinates with a positive z-index.
+  This contains a data set of quadrilaterals that map to coordinates with a negative z-index.
   
 * [dry_data.json](https://github.com/shuhsuan/wave_challenge/blob/master/dry_data.json)
-  This contains a data set of quadrilaterals that map to coordinates with a negative z-index.
+  This contains a data set of quadrilaterals that map to coordinates with a positive z-index.
 
 
